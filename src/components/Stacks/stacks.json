@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "path": "/icons/javascript.svg",
+    "alt": "JavaScript Logo"
+  },
+  {
+    "id": 2,
+    "path": "/icons/react.svg",
+    "alt": "React Logo"
+  },
+  {
+    "id": 3,
+    "path": "/icons/tailwindcss.svg",
+    "alt": "TailwindCSS Logo"
+  },
+  {
+    "id": 4,
+    "path": "/icons/bootstrap.svg",
+    "alt": "Bootstrap Logo"
+  },
+  {
+    "id": 5,
+    "path": "/icons/nodejs.svg",
+    "alt": "Node Logo"
+  },
+  {
+    "id": 6,
+    "path": "/icons/express.svg",
+    "alt": "Express Logo"
+  },
+  {
+    "id": 7,
+    "path": "/icons/mysql.svg",
+    "alt": "MySQL Logo"
+  },
+  {
+    "id": 8,
+    "path": "/icons/postgres.svg",
+    "alt": "Postgres Logo"
+  },
+  {
+    "id": 9,
+    "path": "/icons/sequelize.svg",
+    "alt": "Sequelize Logo"
+  },
+  {
+    "id": 10,
+    "path": "/icons/prisma.svg",
+    "alt": "Prisma Logo"
+  },
+  {
+    "id": 11,
+    "path": "/icons/typescript.svg",
+    "alt": "TypeScript Logo"
+  }
+]

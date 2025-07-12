@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Home",
+        "page": "/"
+    },
+    {
+        "id": 2,
+        "name": "Sobre Mim",
+        "page": "/about"
+    },
+    {
+        "id": 3,
+        "name": "Projetos",
+        "page": "/projects"
+    },
+    {
+        "id": 4,
+        "name": "Experiências",
+        "page": "/experiences"
+    },
+    {
+        "id": 5,
+        "name": "Contatos",
+        "page": "/contacts"
+    }
+]
