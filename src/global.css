@@ -5,8 +5,6 @@
 
   --color-*: initial;
 
-  --default-color: white;
-
   --color-primary: #191919;
   --color-secondary: #2a2a2a;
   --color-tertiary: #999999;
@@ -15,4 +13,31 @@
   --color-white: #ffffff;
   --color-black: #000000;
   --color-transparent: transparent;
+}
+
+/* Correções para compatibilidade Firefox */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Reset específico para Firefox */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Garante que flexbox funcione igual em todos os navegadores */
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
