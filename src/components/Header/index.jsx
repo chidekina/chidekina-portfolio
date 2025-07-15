@@ -1,4 +1,4 @@
-import NavMenuHeader from "./NavMenuHeader";
+import NavMenuHeader from "../NavMenuHeader";
 
 const Header = () => {
     return (

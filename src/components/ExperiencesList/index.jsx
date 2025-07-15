@@ -1,8 +1,24 @@
+import { useEffect, useState } from "react";
+
 const ExperiencesList = ({ list, step }) => {
-    const currentCategory = list[step];
+    const [fadeState, setFadeState] = useState('in'); // 'in' | 'out'
+    const [displayedStep, setDisplayedStep] = useState(step);
+
+    useEffect(() => {
+        if (step !== displayedStep) {
+            setFadeState('out');
+            const timeout = setTimeout(() => {
+                setDisplayedStep(step);
+                setFadeState('in');
+            }, 300); // tempo do fade-out
+            return () => clearTimeout(timeout);
+        }
+    }, [step, displayedStep]);
+
+    const currentCategory = list[displayedStep];
 
     return (
-        <div className="text-center mb-6">
+        <div className={`text-center mb-6 transition-opacity duration-300 ${fadeState === 'in' ? 'opacity-100' : 'opacity-0'}`}>
             <h2 className="text-4xl font-bold mb-4 text-accent">{currentCategory.title}</h2>
             <div className="text-lg leading-relaxed max-w-4xl mx-auto px-4 min-h-24 flex items-center justify-center">
                 <ul className="flex flex-col w-full max-w-4xl space-y-3 pt-1 text-center list-disc pl-40 gap-2">
