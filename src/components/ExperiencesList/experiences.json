@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "path": "/icons/hackathon.svg",
+    "title": "Hackathon",
+    "experiences": [
+      {
+        "id": 11,
+        "name": "StartAJE - Segundo Lugar",
+        "description": "Segundo lugar no Hackaton organizado pela Associação dos Jovens Empresários no qual fui o idealizador e líder da equipe."
+      },
+      {
+        "id": 12,
+        "name": "StartAJE - Sede de Inovação",
+        "description": "Prêmio de destaque individual do hackaton."
+      },
+      {
+        "id": 13,
+        "name": "O-HACKA-TA-ON - Primeiro Lugar",
+        "description": "Primeiro lugar no Hackaton organizado pela Unifor em parceria com a M.Dias Branco no qual fui responsável pelo desenvolvimento da aplicação."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "path": "/icons/professor.svg",
+    "title": "Professor",
+    "experiences": [
+      {
+        "id": 21,
+        "name": "Geração Tech",
+        "description": "Instrutor responsável pelo projeto da IEL em parceria com a Digital College com foco em Full Stack."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "path": "/icons/comunidade.svg",
+    "title": "Professor",
+    "experiences": [
+      {
+        "id": 31,
+        "name": "Coda.ce",
+        "description": "Gestor e criador da comunidade voltada para devs no qual são divulgado vagas de empregos, eventos e são realizados eventos online."
+      },
+      {
+        "id": 32,
+        "name": "Comunidade House.js",
+        "description": "Voluntário da comunidade no qual participo diretamente do planejamento e realização de eventos presenciais."
+      },
+      {
+        "id": 33,
+        "name": "Git Together Fortaleza",
+        "description": "Membro ativo da comunidade no qual palestro e ajudo na busca de novos palestrantes para os eventos mensais."
+      }
+    ]
+  }
+]

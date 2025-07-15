@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "LinkedIn",
+        "path": "/social/linkedin.svg",
+        "link": "https://www.linkedin.com/in/cesar-hideki-nagano-326b75115/"
+    },
+     {
+        "id": 2,
+        "name": "Github",
+        "path": "/social/github.svg",
+        "link": "https://github.com/chidekina"
+    },
+     {
+        "id": 3,
+        "name": "Instagram",
+        "path": "/social/instagram.svg",
+        "link": "https://www.instagram.com/hidekina/"
+    }
+]
