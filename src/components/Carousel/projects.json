@@ -2,20 +2,78 @@
   {
     "id": 1,
     "title": "Portfolio Pessoal",
-    "image": "/assets/projects/portfolio.png",
-    "path": "https://github.com/chidekina/chidekina-portfolio",
-    "description": ""
+    "image": "/prints/portfolio-print.png",
+    "description": "Código base do meu portfólio feito com React + Vite e TailwindCSS",
+    "path": "https://github.com/chidekina/chidekina-portfolio"
   },
-  {
+   {
     "id": 2,
-    "title": "API de Tarefas",
-    "image": "/assets/projects/api-tarefas.png",
-    "description": "API RESTful para gerenciamento de tarefas, desenvolvida em Node.js e MongoDB, com autenticação JWT."
+    "title": "Coda.ce",
+    "image": "/prints/coda-ce-print.png",
+    "description": "Página da comunidade Coda.ce no qual mostra as principais informações referente à comunidade",
+    "path": "https://github.com/chidekina/coda-ce-page"
+  }, 
+    {
+    "id": 3,
+    "title": "Estrutura de Dados",
+    "image": "/prints/estrutura-dados-print.png",
+    "description": "Repositório que funciona como um tutor online para aprender mais sobre Estrutura de dados e Algoritmos",
+    "path": "https://github.com/chidekina/estrutura-dados"
   },
   {
-    "id": 3,
-    "title": "Dashboard Financeiro",
-    "image": "/assets/projects/dashboard.png",
-    "description": "Dashboard para controle financeiro pessoal, com gráficos interativos e exportação de relatórios."
+    "id": 4,
+    "title": "Github API",
+    "image": "/prints/github-profile-print.png",
+    "description": "Página para mostrar o perfil no github consumindo API",
+    "path": "https://github.com/chidekina/github-api"
+  },
+  {
+    "id": 5,
+    "title": "Avanti LP",
+    "image": "/prints/Avanti-print.png",
+    "description": "Landing Page criada para teste de seleção",
+    "path": "https://github.com/chidekina/avanti-01"
+  },
+  {
+    "id": 6,
+    "title": "Crash Bandicoot",
+    "image": "/prints/crash-trilogy-print.png",
+    "description": "Página que simula a tela inicial do jogo Crash'n'sane trilogy",
+    "path": "https://github.com/chidekina/CRASH-BANDICOOT"
+  },
+  {
+    "id": 7,
+    "title": "Seu nome dev",
+    "image": "/prints/seu-nome-dev.png",
+    "description": "Página que baseado na data de aniversário gera seu nome dev",
+    "path": "https://github.com/chidekina/seu-nome-dev"
+  },
+  {
+    "id": 8,
+    "title": "Link Adivinha",
+    "image": "/prints/link-adivinha-print.png",
+    "description": "Página que funciona como simulador de adivnhação de números com o personagem Link da franquia Zelda",
+    "path": "https://github.com/chidekina/link-adivinha"
+  },
+  {
+    "id": 9,
+    "title": "Trilha Full Stack",
+    "image": "/prints/formacao-full-stack-print.png",
+    "description": "Trilha de aprendizado Full Stack com foco em JavaScript",
+    "path": "https://www.notion.so/Forma-o-Full-Stack-20a2321c19b780a2b765d48d4626fae4"
+  },
+  {
+    "id": 10,
+    "title": "Artigo - Geração Tech",
+    "image": "/prints/geracao-tech-print.png",
+    "description": "Artigo sobre o fim do Geração Tech e quais os próximos passos",
+    "path": "https://www.linkedin.com/pulse/o-gera%25C3%25A7%25C3%25A3o-tech-acabou-e-agora-cesar-hideki-nagano-pz8vf/?trackingId=6qCyqKgCTsicznrsloRMiw%3D%3D"
+  },
+  {
+    "id": 11,
+    "title": "Artigo - Gerenciamento de dependencias",
+    "image": "/prints/gerenciamento-dependencias-print.png",
+    "description": "Artigo sobre o histórico e a importância do NPM, o surgimento do Yarn e o boom do PNPM",
+    "path": "https://www.linkedin.com/pulse/gerenciamento-de-depend%25C3%25AAncias-javascript-uma-an%25C3%25A1lise-npm-nagano-zpllf/?trackingId=6qCyqKgCTsicznrsloRMiw%3D%3D"
   }
 ]
