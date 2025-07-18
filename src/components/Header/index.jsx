@@ -5,11 +5,9 @@ const Header = () => {
     const [open, setOpen] = useState(false);
     return (
         <header className="bg-secondary px-12 py-4 text-white flex items-center justify-between">
-            {/* Desktop Nav */}
             <div className="hidden md:block w-full">
                 <NavMenuHeader />
             </div>
-            {/* Mobile Hamburger */}
             <div className="md:hidden w-full flex items-center justify-between">
                 <span className="font-bold text-lg">Menu</span>
                 <button
@@ -17,7 +15,6 @@ const Header = () => {
                     onClick={() => setOpen(!open)}
                     aria-label="Abrir menu"
                 >
-                    {/* Animated Hamburger Icon */}
                     <span className="relative w-8 h-8 flex items-center justify-center">
                         <span className={`block absolute h-0.5 w-8 bg-white rounded transition-all duration-300 ease-in-out ${open ? 'rotate-45 top-4' : 'top-2'}`}></span>
                         <span className={`block absolute h-0.5 w-8 bg-white rounded transition-all duration-300 ease-in-out ${open ? 'opacity-0' : 'top-4'}`}></span>
@@ -25,11 +22,9 @@ const Header = () => {
                     </span>
                 </button>
             </div>
-            {/* Mobile Menu Overlay */}
             {open && (
                 <div className="fixed inset-0 bg-gradient-to-br from-black/30 via-black/10 to-transparent z-50 flex flex-col items-center justify-center backdrop-blur-sm transition-all duration-300" onClick={() => setOpen(false)}>
                     <div className="bg-secondary rounded-xl p-8 w-4/5 max-w-xs shadow-lg animate-fade-in-up flex flex-col items-center" onClick={e => e.stopPropagation()}>
-                        {/* Menu vertical mobile */}
                         <nav className="flex flex-col gap-2 w-full items-center">
                             <NavMenuHeader mobile vertical />
                         </nav>
@@ -39,7 +34,6 @@ const Header = () => {
                     </div>
                 </div>
             )}
-            {/* Animations */}
             <style>{`
                 @keyframes fade-in-up {
                     0% { opacity: 0; transform: translateY(30px); }

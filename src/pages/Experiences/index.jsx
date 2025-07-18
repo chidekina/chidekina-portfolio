@@ -15,19 +15,28 @@ const Experiences = () => {
 
     return (
         <Container>
-            <div className="flex flex-col items-center justify-center px-8 py-12">
-                <div className="w-full px-8 flex flex-col">
+            <div className="flex flex-col md:flex-col items-center justify-center px-2 md:px-8 py-8 md:py-12 w-full">
+                <div className="w-full flex flex-col md:flex-col">
+                    <div className="block md:hidden mb-8">
+                        <ExperienceIcons
+                            list={experinces}
+                            onClick={handleStepClick}
+                            step={currentStep}
+                        />
+                    </div>
                     <ExperiencesList
                         list={experinces}
                         step={currentStep}
                     />
+                    <div className="hidden md:block mt-8">
+                        <ExperienceIcons
+                            list={experinces}
+                            onClick={handleStepClick}
+                            step={currentStep}
+                        />
+                    </div>
                 </div>
             </div>
-            <ExperienceIcons
-                list={experinces}
-                onClick={handleStepClick}
-                step={currentStep}
-            />
         </Container>
     );
 };

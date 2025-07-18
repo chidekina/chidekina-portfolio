@@ -2,16 +2,13 @@ import useWindowSize from "../../hooks/useWindowSize";
 
 const Container = ({ children, flexDirection = "flex-col", gap = "gap-0" }) => {
     const { width, height } = useWindowSize();
-    // Definir breakpoints para mobile
     const isMobile = width < 768;
-    // Proporções para linhas
     const svgW = isMobile ? 400 : 1920;
     const svgH = isMobile ? 800 : 1080;
     const w = isMobile ? (width || svgW) : '100vw';
     const h = isMobile ? (height || svgH) : '100vh';
     return (
         <div className="h-screen w-full bg-primary text-white relative overflow-hidden md:overflow-hidden overflow-y-auto">
-            {/* SVG fixo para desktop, responsivo para mobile */}
             {!isMobile && (
                 <svg
                     className="fixed top-0 left-0 w-screen h-screen pointer-events-none z-0"
