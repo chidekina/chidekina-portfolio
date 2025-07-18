@@ -1,6 +1,7 @@
-import { useState, useEffect } from "react";
+import { React, useState, useEffect } from "react";
 import profileImage from "../../assets/profile-image.png"
 import Stacks from "../../components/Stacks";
+import Container from "../../components/Container";
 
 const HomePage = () => {
     const [displayedText1, setDisplayedText1] = useState('');
@@ -61,15 +62,15 @@ const HomePage = () => {
     }, []);
 
     return (
-        <main className="flex-1 bg-primary w-full flex gap-24 pt-12 pr-8" style={{ minHeight: '0' }}>
+        <Container flexDirection="flex-row" gap="gap-24">
             <img
                 src={profileImage}
                 alt="Imagem do Perfil"
-                className={`w-92 flex-shrink-0 object-cover object-right transition-all duration-1000 ease-out rounded-2xl shadow-lg
+                className={`w-92 h-full flex-shrink-0 object-cover object-right transition-all duration-1000 ease-out rounded-2xl shadow-lg
                     ${showPhoto ? 'opacity-100 translate-x-0 scale-100' : 'opacity-0 -translate-x-10 scale-95'}`}
-                style={{ aspectRatio: 'auto', maxHeight: '80vh' }}
+                style={{ aspectRatio: 'auto' }}
             />
-            <div className="flex-1 flex flex-col mt-12 gap-2 min-w-0">
+            <div className="flex-1 flex flex-col pt-20 gap-2 min-w-0">
                 <h1 className="text-4xl leading-tight">
                     {displayedText1}
                     {currentIndex1 < text1.length && <span className="animate-pulse">|</span>}
@@ -89,7 +90,7 @@ const HomePage = () => {
                     <Stacks />
                 </div>
             </div>
-        </main>
+        </Container>
     );
 }
 
